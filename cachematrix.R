@@ -1,13 +1,13 @@
 ## These are two functions that allow use of 'special' matrix object.
 ## This special matrix object cache inverse of the underlying matrix
-## This is code for Programming Assignemnt number 02 in John Hopkins' R Programming course on Coursea
+## This is code for Programming Assignment number 02 in John Hopkins' R Programming course on Coursea
 ## author: Lukasz Gadomski
 
 ## This function create 'special' matrix object.
 ## It stores the input matix and the inverse of it. After the object is created the inverse is set to NULL.
 ## To calcule and cache inverse you have to call 'cacheSolve' function.
-## To fetch underlying matrix object call it's 'get' method.
-## To fetch inverse matrix object call it's 'getInv' method (returns inverse of x or NULL).
+## To fetch underlying matrix object call its 'get' method.
+## To fetch inverse matrix object call its 'getInv' method (returns inverse of x or NULL).
 ## To set inverse call 'setInv'.
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
